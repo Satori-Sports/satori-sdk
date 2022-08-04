@@ -1,0 +1,62 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "IRoyaltiesConfig",
+  "sourceName": "contracts/royalties/IRoyaltiesConfig.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "getRoyaltiesConfiguration",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "address[]",
+              "name": "entities",
+              "type": "address[]"
+            },
+            {
+              "internalType": "uint256[]",
+              "name": "royaltiesBPS",
+              "type": "uint256[]"
+            }
+          ],
+          "internalType": "struct IRoyaltiesConfig.RoyaltiesBPS",
+          "name": "_royalties",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "isEmpty",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "isValid",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

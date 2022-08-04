@@ -1,0 +1,21 @@
+{
+  "name": "@satorisports/satori-contract-types",
+  "version": "1.0.9",
+  "description": "",
+  "homepage": "https://github.com/Satori-Sports/satori-chain",
+  "repository": "github:satori-sports/satori-chain",
+  "main": "contracts/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "npx typechain --target=ethers-v5 --out-dir ./contracts \"./abis/**/*[!dbg].json\"",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typechain/ethers-v5": "^10.1.0",
+    "typechain": "^8.1.0"
+  },
+  "gitHead": "77a545f24588c271d262bc1bc236127e7768bb3c"
+}

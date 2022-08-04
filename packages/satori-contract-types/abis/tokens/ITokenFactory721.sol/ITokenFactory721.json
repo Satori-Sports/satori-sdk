@@ -1,0 +1,50 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "ITokenFactory721",
+  "sourceName": "contracts/tokens/ITokenFactory721.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "symbol",
+          "type": "string"
+        },
+        {
+          "internalType": "uint256",
+          "name": "tokenCost",
+          "type": "uint256"
+        },
+        {
+          "internalType": "contract IRoyalties",
+          "name": "_royalties",
+          "type": "address"
+        },
+        {
+          "internalType": "contract IRoyaltiesConfig",
+          "name": "_royaltiesConfig",
+          "type": "address"
+        }
+      ],
+      "name": "createToken",
+      "outputs": [
+        {
+          "internalType": "contract IToken721",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
